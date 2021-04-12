@@ -99,9 +99,39 @@ Although both number of languages and Salary are not related in this sample, let
 
 ![image](https://user-images.githubusercontent.com/42064695/114475641-8e7dd680-9bf0-11eb-994a-002e706ab4c8.png)
 
-The main result of the latest analysis is that there is a correlation between number of languages a worker who knows Go and their salary. It does not occurs for the other 2 ones: Perl and Kotlin. Knowing that, in the next session we are going to analyze the profile of this professional: what languages someone who knows Go, also have learned?
+The main result of the latest analysis is that there is a correlation between number of languages a worker who knows Go and their salary. It does not occurs for the other 2 ones: Perl and Kotlin.
 
+### Conslusion
 As a matter of fact, Go developers earn higher salaries and they also have background in multiple programming languages. Considering that they are majority > 9years of experience and Go is a recent programming language, this workers must have adopted Go additionally.
+
+## Programming languages learn together
+
+In this session, we are going to apply Association Rules Apriori algorithm in order to figure out what language are learned together by the Tech workers. For definition, antecedent is an item found within the data and a consequent is an item found in combination with the antecedent. Association rules are created by searching data for frequent if-then patterns and using the criteria support and confidence to identify the most important relationships.
+
+
+### General case
+
+The Apriori algorithm that we have applied shows typicals tech stacks of developers that work on projects. From that, we are able to recognize the different roles you can found in the top job roles. Considering (antecedent) + (consequent):
+
+- The tech stack (Javascript, HTML/CSS) + (SQL), (SQL, C#) + (Javascript), (Javascript) + (Java), (PHP) + (Javascript) and (Javascript, C#) + (SQL) are technologies that typically belong to Full-Stack Developer role.
+- The tech stack (Java) + (SQL) and (C#) + (SQL) are technologies that belong to Back-End Developer role.
+- The tech stack (Javascript) + (HTML/CSS), (Typescript, HTML/CSS) + (Javascript) and (Typescript, Javascript) + (HTML/CSS) are technologies that typically belong to Front-End Developer role.
+- The tech stack (Python) + (SQL) are technologies that typically belong to Data Scientist/Data Engineer role.
+- Finally, the tech stack (Bash/Shell/PowerShell) + (SQL) are technologies that typically belong to DevOps Engineer and Maintenace & Support roles.
+
+![image](https://user-images.githubusercontent.com/42064695/114476342-eec14800-9bf1-11eb-9079-a45126b8531f.png)
+
+#### Conclusion
+1. Typicals tech stacks of developers were founded. 
+2. Javascript is the most popular language and typically related to Front-End and Full-Stack developers, being learned with more sort of languages
+
+### What languages someone who knows Go, also have learned?
+
+As a result, we can conclude that Go is learned with Bash/Shell/PowerShell, HTML/CSS, Javascript, Python and SQL both in pair combination both as antecedent or consequent.
+
+![image](https://user-images.githubusercontent.com/42064695/114476134-9ab66380-9bf1-11eb-8d80-1d7a38678208.png)
+
+Developers who have background in Bash/Shell/PowerShell, HTML/CSS, Javascript, Python and SQL are potencial candidate to adopt Go as well. In addicion, new learners who want to be a Go developers, might consider learn some of this other languages too.
 
 
 
