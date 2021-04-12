@@ -81,7 +81,27 @@ Unicorn companies tend to provide higher and fairness salaries.
 
 ## Salary vs English Level
 
-English level influences salary average. Here is an example: in average, people with no working experience but fluent in English has almost the same salary of someone with 3-6 years of experience but with an elementary English level.
+English level influences salary average. Workers with better English skill tends to earn more. Peolple who are native, bilingue or full professional English level have salaries higher the global mean.
+
+![image](https://user-images.githubusercontent.com/42064695/114474515-4e1d5900-9bee-11eb-8823-9140d909561c.png)
+
+Here is an example: in average, people with no working experience but fluent in English has almost the same salary of someone with 3-6 years of experience but with an elementary English level.
 
 ![image](https://user-images.githubusercontent.com/42064695/114474289-cfc0b700-9bed-11eb-9d0b-1a27b8a43078.png)
+
+## Salary vs Number of programming languages known
+
+Here, we are applying K-Means algorithm for verifying if the number of languages that a person knows and his salary average is correlated (whether it forms cluster or not, by mean). In general, there is no correlation between the number of languages that a worker knows with their salary (no cluster were found). We can extend this result, and conclude that specialists tend to earn more.
+
+![image](https://user-images.githubusercontent.com/42064695/114475433-3050f380-9bf0-11eb-8e92-ddf49aafd39e.png)
+
+Although both number of languages and Salary are not related in this sample, let's analyse if this pattern occours in the top 3 languages with the highest salary: Go, Perl and Kotlin.
+
+![image](https://user-images.githubusercontent.com/42064695/114475641-8e7dd680-9bf0-11eb-994a-002e706ab4c8.png)
+
+The main result of the latest analysis is that there is a correlation between number of languages a worker who knows Go and their salary. It does not occurs for the other 2 ones: Perl and Kotlin. Knowing that, in the next session we are going to analyze the profile of this professional: what languages someone who knows Go, also have learned?
+
+As a matter of fact, Go developers earn higher salaries and they also have background in multiple programming languages. Considering that they are majority > 9years of experience and Go is a recent programming language, this workers must have adopted Go additionally.
+
+
 
