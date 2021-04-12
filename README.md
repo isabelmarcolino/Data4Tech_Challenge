@@ -113,11 +113,11 @@ In this session, we are going to apply Association Rules Apriori algorithm in or
 
 The Apriori algorithm that we have applied shows typicals tech stacks of developers that work on projects. From that, we are able to recognize the different roles you can found in the top job roles. Considering (antecedent) + (consequent):
 
-- The tech stack (Javascript, HTML/CSS) + (SQL), (SQL, C#) + (Javascript), (Javascript) + (Java), (PHP) + (Javascript) and (Javascript, C#) + (SQL) are technologies that typically belong to Full-Stack Developer role.
-- The tech stack (Java) + (SQL) and (C#) + (SQL) are technologies that belong to Back-End Developer role.
-- The tech stack (Javascript) + (HTML/CSS), (Typescript, HTML/CSS) + (Javascript) and (Typescript, Javascript) + (HTML/CSS) are technologies that typically belong to Front-End Developer role.
-- The tech stack (Python) + (SQL) are technologies that typically belong to Data Scientist/Data Engineer role.
-- Finally, the tech stack (Bash/Shell/PowerShell) + (SQL) are technologies that typically belong to DevOps Engineer and Maintenace & Support roles.
+- The tech stack (Javascript, HTML/CSS) + (SQL), (SQL, C#) + (Javascript), (Javascript) + (Java), (PHP) + (Javascript) and (Javascript, C#) + (SQL) are technologies that typically belong to **Full-Stack Developer role**.
+- The tech stack (Java) + (SQL) and (C#) + (SQL) are technologies that belong to **Back-End Developer role**.
+- The tech stack (Javascript) + (HTML/CSS), (Typescript, HTML/CSS) + (Javascript) and (Typescript, Javascript) + (HTML/CSS) are technologies that typically belong to **Front-End Developer role**.
+- The tech stack (Python) + (SQL) are technologies that typically belong to **Data Scientist/Data Engineer role**.
+- Finally, the tech stack (Bash/Shell/PowerShell) + (SQL) are technologies that typically belong to **DevOps Engineer and Maintenace & Support roles**.
 
 ![image](https://user-images.githubusercontent.com/42064695/114476342-eec14800-9bf1-11eb-9079-a45126b8531f.png)
 
