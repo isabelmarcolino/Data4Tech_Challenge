@@ -38,7 +38,7 @@ The Tech roles with less than 10% of female representativity are: CTO, Solutions
 
 ![image](https://user-images.githubusercontent.com/42064695/114468031-c1b96900-9be2-11eb-8e7f-bda62bc3fa84.png)
 
-## Varibles correlation
+## Variables correlation
 
 Pearson's correlation coefficient is the test statistics that measures the statistical relationship or association, between two continuous variables. It is known as the best method of measuring the association between variables of interest because it is based on the method of covariance. In order to understand better our results, correlation coeficient is in the range from -1 to 1: negative coeficients show that there is a negative correlation (when one increases, the other one decreases); positive coeficients indicate that there is a positive correlation (both increase or decrease together); when the coeficient is 0, it means that there is not a linear correlation.
 
@@ -111,7 +111,7 @@ In this session, we are going to apply Association Rules Apriori algorithm in or
 
 ### General case
 
-The Apriori algorithm that we have applied shows typicals tech stacks of developers that work on projects. From that, we are able to recognize the different roles you can found in the top job roles. Considering (antecedent) + (consequent):
+The Apriori algorithm that we have applied shows typical tech stacks of developers that work on projects. From that, we are able to recognize the different roles you can found in the top job roles. Considering (antecedent) + (consequent):
 
 - The tech stack (Javascript, HTML/CSS) + (SQL), (SQL, C#) + (Javascript), (Javascript) + (Java), (PHP) + (Javascript) and (Javascript, C#) + (SQL) are technologies that typically belong to **Full-Stack Developer role**.
 - The tech stack (Java) + (SQL) and (C#) + (SQL) are technologies that belong to **Back-End Developer role**.
@@ -122,7 +122,7 @@ The Apriori algorithm that we have applied shows typicals tech stacks of develop
 ![image](https://user-images.githubusercontent.com/42064695/114476342-eec14800-9bf1-11eb-9079-a45126b8531f.png)
 
 #### Conclusion
-1. Typicals tech stacks of developers were founded. 
+1. Typical tech stacks of developers were founded. 
 2. Javascript is the most popular language and typically related to Front-End and Full-Stack developers, being learned with more sort of languages
 
 ### What languages someone who knows Go, also have learned?
